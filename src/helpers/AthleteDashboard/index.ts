@@ -1,0 +1,227 @@
+import { AiOutlineSearch } from "react-icons/ai";
+import { Resources } from "../../config/Resources";
+export const sidebarData = [
+  {
+    id: 0,
+    title: "Dashboard",
+    redirectTo: "/athlete-dashboard",
+    Image: Resources.images.AthleteDashboard.dashboard,
+  },
+  {
+    id: 1,
+    title: "Community",
+    redirectTo: "/athlete/community",
+    Image: Resources.images.AthleteDashboard.community,
+  },
+  {
+    id: 2,
+    title: "Revenue",
+    Image: Resources.images.AthleteDashboard.revenue,
+    redirectTo: "/revenue-details",
+    subItems: ["Revenue Summary & Share", "Transactions", "Estate Payout"],
+  },
+  {
+    id: 3,
+    title: "AE News",
+    redirectTo: "/athletic-news",
+    Image: Resources.images.AthleteDashboard.aeNews,
+  },
+];
+
+export const progressBarData1 = [
+  {
+    textData: "Total Earnings To Date 1",
+    percentData: "38%",
+    barColor: "!bg-pacificBlue",
+    percentChange: "(+0.35%)",
+  },
+  {
+    textData: "Your Portion of Earnings To Date",
+    percentData: "38%",
+    barColor: "!bg-fireBush",
+    percentChange: "",
+  },
+];
+
+export const progressBarData2 = [
+  {
+    textData: "Product 1",
+    percentData: "38%",
+    barColor: "!bg-persianGreen",
+    percentChange: "(+0.35%)",
+  },
+  {
+    textData: "Product 2",
+    percentData: "40%",
+    barColor: "!bg-blueViolet",
+    percentChange: "",
+  },
+  {
+    textData: "Product 3",
+    percentData: "12%",
+    barColor: "!bg-fireBush",
+    percentChange: "",
+  },
+];
+
+export const customerDetails = [
+  {
+    name: "Jamie Smith",
+    age: 31,
+    location: "New York, NY",
+    profileImage: Resources.images.AthleteDashboard.user,
+  },
+  {
+    name: "Joe Taylor",
+    age: 31,
+    location: "New York, NY",
+    profileImage: Resources.images.AthleteDashboard.user2,
+  },
+  {
+    name: "Emily Jackson",
+    age: 31,
+    location: "New York, NY",
+    profileImage: Resources.images.AthleteDashboard.user3,
+  },
+  {
+    name: "Michael Todd",
+    age: 31,
+    location: "New York, NY",
+    profileImage: Resources.images.AthleteDashboard.user4,
+  },
+  {
+    name: "Tim Jones",
+    age: 31,
+    location: "New York, NY",
+    profileImage: Resources.images.AthleteDashboard.user5,
+  },
+];
+
+
+export const playerData = [
+  {
+    id: "1",
+    athlete_image: Resources.images.AthleteDashboard.player1,
+    name: "Ged Doughton",
+    college: "Lorem ipsum dolor",
+    sport: "Lorem",
+    no: "17#",
+    year: "1974-1975 |",
+    totalSold: "2,225",
+    totalRevenue: "$220,000",
+  },
+  {
+    id: "2",
+    athlete_image: Resources.images.AthleteDashboard.player2,
+    name: "Ged Doughton",
+    college: "Lorem ipsum dolor",
+    sport: "Lorem",
+    no: "17#",
+    year: "1974-1975 |",
+    totalSold: "2,225",
+    totalRevenue: "$220,000",
+  },
+  {
+    id: "3",
+    athlete_image: Resources.images.AthleteDashboard.player3,
+    name: "Ged Doughton",
+    college: "Lorem ipsum dolor",
+    sport: "Lorem",
+    no: "17#",
+    year: "1974-1975 |",
+    totalSold: "2,225",
+    totalRevenue: "$220,000",
+  },
+  {
+    id: "4",
+    athlete_image: Resources.images.AthleteDashboard.player4,
+    name: "Ged Doughton",
+    college: "Lorem ipsum dolor",
+    sport: "Lorem",
+    no: "17#",
+    year: "1974-1975 |",
+    totalSold: "2,225",
+    totalRevenue: "$220,000",
+  },
+  {
+    id: "5",
+    athlete_image: Resources.images.AthleteDashboard.player5,
+    name: "Ged Doughton",
+    college: "Lorem ipsum dolor",
+    sport: "Lorem",
+    no: "17#",
+    year: "1974-1975 |",
+    totalSold: "2,225",
+    totalRevenue: "$220,000",
+  },
+  {
+    id: "6",
+    athlete_image: Resources.images.AthleteDashboard.player1,
+    name: "Ged Doughton",
+    college: "Lorem ipsum dolor",
+    sport: "Lorem",
+    no: "17#",
+    year: "1974-1975 |",
+    totalSold: "2,225",
+    totalRevenue: "$220,000",
+  },
+  {
+    id: "7",
+    athlete_image: Resources.images.AthleteDashboard.player2,
+    name: "Ged Doughton",
+    college: "Lorem ipsum dolor",
+    sport: "Lorem",
+    no: "17#",
+    year: "1974-1975 |",
+    totalSold: "2,225",
+    totalRevenue: "$220,000",
+  },
+  {
+    id: "8",
+    athlete_image: Resources.images.AthleteDashboard.player3,
+    name: "Ged Doughton",
+    college: "Lorem ipsum dolor",
+    sport: "Lorem",
+    no: "17#",
+    year: "1974-1975 |",
+    totalSold: "2,225",
+    totalRevenue: "$220,000",
+  },
+  {
+    id: "9",
+    athlete_image: Resources.images.AthleteDashboard.player4,
+    name: "Ged Doughton",
+    college: "Lorem ipsum dolor",
+    sport: "Lorem",
+    no: "17#",
+    year: "1974-1975 |",
+    totalSold: "2,225",
+    totalRevenue: "$220,000",
+  },
+  {
+    id: "10",
+    athlete_image: Resources.images.AthleteDashboard.player5,
+    name: "Ged Doughton",
+    college: "Lorem ipsum dolor",
+    sport: "Lorem",
+    no: "17#",
+    year: "1974-1975 |",
+    totalSold: "2,225",
+    totalRevenue: "$220,000",
+  },
+];
+
+export const months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
